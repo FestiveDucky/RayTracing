@@ -7,15 +7,18 @@
             "command": "g++",
             "args": [
                 "-std=c++20",
-                "main.cpp",
-                "-I", "C:/Libraries",
-                "-o", "main.exe"
+                "*.cpp",
+                "-I",
+                "C:/Libraries",
+                "-o",
+                "main.exe"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"]
-        }
-    ]
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }]
 }

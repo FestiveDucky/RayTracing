@@ -1,0 +1,57 @@
+{
+    "objects": [
+        {
+            "position": [0.0, -30.0, 5.0],
+            "radius": 20.0,
+            "color": [255, 255, 0],
+            "lightEmission": 40.0
+        },
+        {
+            "position": [0.0, -30.0, -15.0],
+            "radius": 5.0,
+            "color": [255, 255, 255],
+            "lightEmission": 155.0
+        },
+        {
+            "position": [20.0, 0.0, -15.0],
+            "radius": 5.0,
+            "color": [255, 255, 255],
+            "lightEmission": 155.0
+        },
+        {
+            "position": [0.0, -10.0, 5.0],
+            "radius": 5.0,
+            "color": [255, 0, 0],
+            "lightEmission": 155.0
+        },
+        {
+            "position": [20.0, -30.0, 5.0],
+            "radius": 5.0,
+            "color": [0, 0, 255],
+            "lightEmission": 155.0
+        },
+        {
+            "position": [-20.0, -30.0, 5.0],
+            "radius": 5.0,
+            "color": [0, 255, 0],
+            "lightEmission": 155.0
+        },
+        {
+            "position": [0, -50.0, 5.0],
+            "radius": 5.0,
+            "color": [0, 255, 255],
+            "lightEmission": 155.0
+        }
+        
+    ],
+    "camera": {
+        "position": [0.0, -30.0, -50.0],
+        "rotation": [0.0, 0.0, 0.0],
+        "sensorDist": 100.0,
+        "imageSize": [1000, 400],
+        "pixelSize": 0.4
+    },
+    "settings": {
+        "maxBounces": 2
+    }
+}
